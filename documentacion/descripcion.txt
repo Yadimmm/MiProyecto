@@ -1,0 +1,4 @@
+Nombre: MiProyecto
+Problema: (escribe aqui el problema que resuelve tu proyecto)
+Objetivo: (escribe aqui el objetivo de tu proyecto)
+Descripcion: (escribe aqui una descripcion breve de tu proyecto)
