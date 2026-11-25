@@ -1,4 +1,4 @@
-Nombre: MiProyecto
-Problema: (escribe aqui el problema que resuelve tu proyecto)
-Objetivo: (escribe aqui el objetivo de tu proyecto)
-Descripcion: (escribe aqui una descripcion breve de tu proyecto)
+Nombre: AgendaVet
+Problema: Las veterinarias de Durango pierden citas y los duenos olvidan las vacunas de sus mascotas porque todo se maneja en papel o por mensajes sueltos.
+Objetivo: Ofrecer un sistema web para agendar citas y enviar recordatorios automaticos de vacunas y desparasitacion.
+Descripcion: AgendaVet permite a cada clinica registrar mascotas, consultar su historial y agendar citas, y avisa a los duenos antes de cada vacuna.
