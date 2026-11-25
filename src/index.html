@@ -5,22 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AgendaVet</title>
   <style>
-    .banner { background: linear-gradient(90deg, #2a9d8f, #264653); color: white; text-align: center; padding: 40px 20px; font-size: 28px; border-radius: 8px; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #264653; background: #f4f9f8; line-height: 1.6; }
+    header { background: linear-gradient(135deg, #2a9d8f, #264653); color: white; text-align: center; padding: 60px 20px; }
+    header .animales { font-size: 40px; margin-bottom: 10px; }
+    header h1 { margin: 0 0 15px; font-size: 36px; }
+    header p { max-width: 650px; margin: 0 auto 25px; font-size: 18px; }
+    .boton { display: inline-block; background: #e9c46a; color: #264653; padding: 14px 32px; border-radius: 30px; font-size: 18px; font-weight: bold; text-decoration: none; }
+    .boton:hover { background: #f4a261; }
+    section { max-width: 950px; margin: 0 auto; padding: 45px 20px; }
+    h2 { text-align: center; color: #2a9d8f; }
+    .beneficios { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 25px; }
+    .tarjeta { flex: 1 1 250px; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 3px 10px rgba(0,0,0,0.08); text-align: center; }
+    .tarjeta .icono { font-size: 40px; }
+    .contacto { background: white; border-radius: 12px; box-shadow: 0 3px 10px rgba(0,0,0,0.08); text-align: center; padding: 30px; }
+    footer { background: #264653; color: white; text-align: center; padding: 20px; margin-top: 30px; }
   </style>
 </head>
 <body>
-  <div class="banner">🐶 🐱 AgendaVet · Citas y vacunas sin olvidos 🐰 🐦</div>
+  <header>
+    <div class="animales">🐶 🐱 🐰 🐦</div>
+    <h1>AgendaVet: el cuidado de tu mascota, siempre a tiempo</h1>
+    <p>AgendaVet es un sistema para veterinarias que organiza citas, guarda el historial de cada mascota y avisa a sus duenos cuando toca una vacuna.</p>
+    <a class="boton" href="#contacto">Conoce mas</a>
+  </header>
 
-  <h1>AgendaVet: el cuidado de tu mascota, siempre a tiempo</h1>
-  <p>AgendaVet es un sistema para veterinarias que organiza citas, guarda el historial de cada mascota y avisa a sus duenos cuando toca una vacuna.</p>
-  <p><strong>Conoce AgendaVet y descubre como puede ayudar a tu clinica.</strong></p>
+  <section>
+    <h2>¿Por que usar AgendaVet?</h2>
+    <p style="text-align:center">Una clinica organizada atiende mejor, pierde menos citas y mantiene contentos a sus clientes.</p>
+    <div class="beneficios">
+      <div class="tarjeta"><div class="icono">📅</div><h3>Menos citas perdidas</h3><p>Los recordatorios automaticos reducen las faltas.</p></div>
+      <div class="tarjeta"><div class="icono">📋</div><h3>Historial a la mano</h3><p>Vacunas, consultas y tratamientos de cada mascota en un solo lugar.</p></div>
+      <div class="tarjeta"><div class="icono">⏱️</div><h3>Mas tiempo para ellas</h3><p>Menos papeleo y menos llamadas para confirmar horarios.</p></div>
+    </div>
+  </section>
 
-  <h2>¿Por que usar AgendaVet?</h2>
-  <p>Porque una clinica organizada atiende mejor, pierde menos citas y mantiene contentos a sus clientes.</p>
-  <ul>
-    <li><strong>Menos citas perdidas:</strong> los recordatorios automaticos reducen las faltas.</li>
-    <li><strong>Historial siempre a la mano:</strong> vacunas, consultas y tratamientos de cada mascota en un solo lugar.</li>
-    <li><strong>Mas tiempo para las mascotas:</strong> menos papeleo y menos llamadas para confirmar horarios.</li>
-  </ul>
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <div class="contacto">
+      <p>¿Quieres ver AgendaVet en tu clinica? Escribenos.</p>
+      <p>📧 contacto@agendavet.example.com</p>
+      <p>📞 618 000 0000</p>
+      <p>📍 Durango, Dgo., Mexico</p>
+    </div>
+  </section>
+
+  <footer>© 2026 AgendaVet · Informacion de contacto ficticia</footer>
 </body>
 </html>
